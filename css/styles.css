@@ -1,13 +1,39 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a:link, a:visited {
+    color: #F7C328
+}
+
+.navbar-brand {
+    font-family: "Galada", sans-serif;
+}
+
+.navigation {
+    align-items: center;
+}
+
 .navbar {
-    margin-top: 25px;
-    padding: 0;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    padding-top: 20px;
 }
 
-.banner {
-    margin-bottom: 40px;
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+
+    font-family: Montserrat, sans-serif;
 }
 
-img {
+.about {
+    margin-top: 12%;
+}
+
+.avatar {
     max-width: 200px;
     max-height: 200px;
     border-radius: 50%;
@@ -16,6 +42,15 @@ img {
 .contact {
     text-align: left;
     margin-top: 20px;
+    font-family: Lato, sans-serif;
+}
+
+.contact h5 {
+    color: #3F3E3E
+}
+
+.contact p {
+    color: rgb(116, 116, 116);
 }
 
 .info {
@@ -26,6 +61,7 @@ img {
     padding: 0;
     display: block;
     word-wrap: break-word;
+    color: rgb(116, 116, 116);
 }
 
 .profile-info {
@@ -33,11 +69,24 @@ img {
     margin: 0;
 }
 
-@media (max-width: 992px) {
+footer img {
+    max-width: 30px;
+    max-height: 30px;
+    margin-left: 10px;
+}
+
+footer {
+    margin-bottom: 1%;
+    margin-top: auto;
+    text-align: right;
+}
+
+@media (max-width: 990px) {
     .info {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 5%;
     }
 
     .contact {
@@ -47,6 +96,17 @@ img {
     .intro {
         margin-top: 5%;
     }
+
+    .navbar-nav > li{
+        padding-left:5px;
+        padding-right:5px;
+    }
 }
 
+@media (max-width: 540px) {
+    .navigation {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
 
