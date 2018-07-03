@@ -33,4 +33,20 @@ img {
     margin: 0;
 }
 
+@media (max-width: 992px) {
+    .info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        margin-left: 10%;
+    }
+
+    .intro {
+        margin-top: 5%;
+    }
+}
+
 
