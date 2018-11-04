@@ -64,12 +64,45 @@ a:link, a:visited {
 .profile-info {
     max-width: 100%;
     margin: 0;
+    margin-bottom: 200px;
 }
 
-footer img {
+.publication h3{
+    font-family: Montserrat, sans-serif;
+}
+
+.publication_content{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.pub_logo{
+    max-width: 50px;
+    max-height: 50px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.uw_logo{
     max-width: 30px;
     max-height: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.rwjf_logo{
+    max-width: 40px;
+    max-height: 40px;
     margin-left: 10px;
+    margin-top: 5px;
+}
+
+.social_logos {
+    max-width: 30px;
+    max-height: 30px;
 }
 
 footer {
