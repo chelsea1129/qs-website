@@ -74,6 +74,15 @@ h3{
     font-family: Montserrat, sans-serif;
 }
 
+h3::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -285px; 
+    height: 285px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
 .publication_content{
     padding-left: 30px;
     padding-right: 30px;
