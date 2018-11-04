@@ -26,6 +26,10 @@ a:link, a:visited {
     font-family: Montserrat, sans-serif;
 }
 
+.pagebreak {
+    padding-bottom: 200px;
+}
+
 .about {
     margin-top: 12%;
 }
@@ -67,7 +71,7 @@ a:link, a:visited {
     margin-bottom: 200px;
 }
 
-.publication h3{
+h3{
     font-family: Montserrat, sans-serif;
 }
 
@@ -77,6 +81,7 @@ a:link, a:visited {
     padding-top: 30px;
     padding-bottom: 10px;
 }
+
 
 .pub_logo{
     max-width: 50px;
@@ -103,6 +108,20 @@ a:link, a:visited {
 .social_logos {
     max-width: 30px;
     max-height: 30px;
+}
+
+.research_grid {
+    font-family: "Open Sans";
+}
+
+
+.research_grid img {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.news_grid{
+    margin-top: 30px;
 }
 
 footer {
