@@ -26,6 +26,10 @@ a:link, a:visited {
     font-family: Montserrat, sans-serif;
 }
 
+.pagebreak {
+    padding-bottom: 200px;
+}
+
 .about {
     margin-top: 12%;
 }
@@ -66,10 +70,66 @@ a:link, a:visited {
     margin: 0;
 }
 
-footer img {
+h3{
+    font-family: Montserrat, sans-serif;
+}
+
+h3::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -285px; 
+    height: 285px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+.publication_content{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.pub_logo{
+    max-width: 50px;
+    max-height: 50px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.uw_logo{
     max-width: 30px;
     max-height: 30px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.rwjf_logo{
+    max-width: 40px;
+    max-height: 40px;
     margin-left: 10px;
+    margin-top: 5px;
+}
+
+.social_logos {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.research_grid {
+    font-family: "Open Sans";
+}
+
+
+.research_grid img {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.news_grid{
+    margin-top: 30px;
 }
 
 footer {
