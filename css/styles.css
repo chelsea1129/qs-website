@@ -81,7 +81,7 @@ h3::before {
     height: 120px; 
     visibility: hidden; 
     pointer-events: none;
-  }
+}
 
 .publication_content{
     padding-left: 30px;
