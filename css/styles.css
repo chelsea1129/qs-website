@@ -123,10 +123,10 @@ h3::before {
 }
 
 
-.research_grid img {
-    max-width: 250px;
-    max-height: 200px;
-}
+/* .research_grid img {
+    max-width: 430px;
+    max-height: 350px;
+} */
 
 .news_grid{
     margin-top: 30px;
