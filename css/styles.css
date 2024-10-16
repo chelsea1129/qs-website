@@ -3,7 +3,8 @@ body {
 }
 
 a:link, a:visited {
-    color: #F7C328
+    /* color: #F7C328 */
+    color: #FDB515
 }
 
 .navbar-brand {
